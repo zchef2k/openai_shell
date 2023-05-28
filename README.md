@@ -9,7 +9,7 @@ This is a silly incorporation of OpenAI into a bash shell for the purpose of gen
 
 ### Usage
 
-Text passed after the wrapper pass to the python script for processing. The prompt sent to OpenAI has a Linux/Bash context prepended to it. Try something like:
+Text passed after the wrapper will pass to the python script for processing. The prompt sent to OpenAI has a Linux/Bash context prepended to it. Try something like:
 
 ```$ ai find files owned by zac in the current directory```
 
@@ -19,6 +19,6 @@ or
 
 etc...
 
-The wrapper will ask if you if the command looks reasonable/safe to run. If you answer yes, it will be executed.
+The wrapper will ask if you if the command looks reasonable and safe to run. If you answer yes, it will be executed.
 
 Have fun, don't break anything. By all means, fork and contribute. Maybe something useful will come of it.
